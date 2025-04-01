@@ -18,7 +18,7 @@ class DrawingApp():
         self.fill_color = None
 
         # Adjust The Brush Color  
-        colors = ['black','red','blue','green','yellow','orange','pink','brown']
+        colors = ['black','red','blue','green','yellow','orange','pink','brown','lime','violet']
         self.color = tk.StringVar(value = colors[0]) 
 
         color_frame = ttk.Frame(self.window)
